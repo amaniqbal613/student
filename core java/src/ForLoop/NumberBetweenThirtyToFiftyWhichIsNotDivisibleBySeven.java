@@ -5,7 +5,7 @@ public class NumberBetweenThirtyToFiftyWhichIsNotDivisibleBySeven {
     public static void main(String[] args) {
         System.out.println("number between 30 to 50 which are not divisible by 7");
         for (int i=30;i<=50;i++){
-            if (i%2!=0){
+            if (i%7!=0){
                 System.out.println(i);
             }
         }
